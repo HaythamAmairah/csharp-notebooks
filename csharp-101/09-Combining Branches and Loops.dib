@@ -14,6 +14,18 @@ First, try on your own in this notebook below, or in Visual Studio, or in Visual
 
 Console.WriteLine("Challenge");
 
+int n = 0;
+
+for(int i = 0; i <= 20; i++)
+{
+    if(i % 3 == 0)
+    {
+        n += i;
+    }
+}
+
+Console.WriteLine($"The sum is {n}.");
+
 #!markdown
 
 ## Tips and tricks
