@@ -73,7 +73,7 @@ public class BankAccount
 
 ## #2: Constructor
 
-This method is what creates a specific instance of an object. Making a `BankAccount` class, like you're doing now, is like making a template for all bank accounts. It's not a singular individual account. The constructor is what will make a singular account, with all the persons actual details. You give the constructor all the details you want for a specific account, and it assigns the details to the new object's properties.
+This method is what creates a specific instance of an object. Making a `BankAccount` class, like you're doing now, is like making a template for all bank accounts. It's not a singular individual account. You can also think of it as a form, but we haven't filled out the form yet. The constructor will fill out that form and make a singular account, with all the persons actual details. You give the constructor all the details you want for a specific account, and it assigns the details to the new object's properties.
 
 `this` is a styling choice. It makes explicit that the variable "Owner" is the variable of that specific instance. In the future, you'll have two instances of an object to interact, and `this` will become a bit more explicitly helpful. You can also write `Owner` instead of `this.Owner` if you want!
 
