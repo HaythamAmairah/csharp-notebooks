@@ -60,6 +60,18 @@ We've given you a base of code that deals with Fibonacci. Can you make a list th
 
 Console.WriteLine("Challenge");
 
+var fibonacciNumbers = new List<int> {1, 1};
+
+while (fibonacciNumbers.Count < 20)
+{
+    int previous = fibonacciNumbers[fibonacciNumbers.Count - 1];
+    int previous2 = fibonacciNumbers[fibonacciNumbers.Count - 2];
+    fibonacciNumbers.Add(previous + previous2);
+}
+
+foreach (int num in fibonacciNumbers)
+    Console.WriteLine(num);
+
 #!markdown
 
 ## Tips and tricks
